@@ -15,7 +15,6 @@ declare global {
 }
 
 export const currentUser: RequestHandler = (req, res, next) => {
-  console.log(req.session);
   if (!req.session?.token) {
     return next();
   }
