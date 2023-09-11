@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import { currentUser } from "../middlewares/current-user";
+import { currentUser } from "@bitwisebit/server-util";
 
 const router = express.Router();
 
